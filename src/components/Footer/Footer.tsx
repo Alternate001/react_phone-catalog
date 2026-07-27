@@ -11,10 +11,7 @@ export const Footer = () => {
         <img src={logo} />
       </Link>
       <div className={style.footer__middle}>
-        <Link
-          to={'https://github.com/mate-academy/react_phone-catalog'}
-          className={style.links}
-        >
+        <Link to={'https://github.com/Alternate001'} className={style.links}>
           Github
         </Link>
         <Link
