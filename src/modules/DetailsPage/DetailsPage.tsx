@@ -180,10 +180,10 @@ export const DetailsPage = ({ list }: { list: ItemPreview[] }) => {
                   type="button"
                   onClick={() => addToCart(String(item.id))}
                   className={
-                    isAddedToCart ? style.buttonTextAdded : style.buttonText
+                    isAddedToCart ? style.buttonText : style.buttonTextAdded
                   }
                 >
-                  {isAddedToCart ? 'Add to cart' : 'Added to cart'}
+                  {isAddedToCart ? 'Added to cart' : 'Add to cart'}
                 </button>
 
                 <button
